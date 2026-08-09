@@ -88,3 +88,59 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+.uber-heading{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.uber-pick-up{
+    font-family: Arial;
+    display: block;
+    border: none;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 12px;
+    margin-bottom: 8px;
+}
+
+.uber-destination{
+    font-family: Arial;
+    border: none;
+    display: block;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 250px;
+    margin-left: 12px;
+    margin-bottom: 35px;
+}
+
+.uber-request-button{
+    font-size: 16px;
+    font-family: Arial;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+
+.uber-schedule-button{
+    font-family: Arial;
+    background-color: rgb(240, 240, 240);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    font-size: 16px;
+}
