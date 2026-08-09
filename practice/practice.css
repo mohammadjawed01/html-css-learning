@@ -1,11 +1,24 @@
-.login-name{
+.login-name {
     font-size: 18px;
     display: block;
     margin-bottom: 6px;
 }
 
-.login-email{
+.login-email {
     font-size: 18px;
     display: block;
 }
 
+.customer-support {
+    width: 210px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.customer-support-button {
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
