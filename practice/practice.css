@@ -144,3 +144,12 @@
     border: none;
     font-size: 16px;
 }
+
+.square-red{
+    background-color: red;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
