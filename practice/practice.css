@@ -204,6 +204,7 @@
     border: 2px solid rgb(160, 160, 160);
     width: 480px;
     border-radius: 6px;
+    margin-bottom: 20px;
 }
 
 .profile-picture {
@@ -235,4 +236,49 @@
     font-size: 16px;
     font-weight: bold;
     vertical-align: middle;
+
+}
+
+.profile {
+    width: 200px;
+    display: block;
+    border: 1px solid rgb(160, 160, 160);
+    margin-left: 20px;
+    font-family: Arial;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+
+.profile-data {
+    color: rgb(100, 100, 100);
+    padding-left: 8px;
+    margin-bottom: 12px;
+}
+
+.profile-request-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
 }
