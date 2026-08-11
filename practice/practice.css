@@ -26,24 +26,48 @@
 }
 
 /* ----------------------------------------------------------------------------- */
-
-.google-search {
-    display: inline-block;
-    margin-top: 120px;
-    margin-left: 320px;
+.goolge-search-page {
+  text-align: center;
 }
 
-.google-search-bar {
-    display: block;
-    width: 650px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 55px;
-    margin-top: 50px;
-    margin-left: 300px;
-    border-radius: 25px;
-    border: 2px solid gray;
+.google-logo {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.google-input {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+}
+
+.google-button {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-button {
+  margin-right: 10px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* ----------------------------------------------------------------------------- */
@@ -266,6 +290,7 @@
     margin-left: 20px;
     font-family: Arial;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
 }
 
 .picture {
@@ -290,6 +315,53 @@
 }
 
 .profile-request-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.profile-card {
+    width: 200px;
+    display: block;
+    border: 1px solid rgb(160, 160, 160);
+    margin-left: 20px;
+    font-family: Arial;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+.picture-card-profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.profile-card-name {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+
+.profile-card-data {
+    color: rgb(100, 100, 100);
+    padding-left: 8px;
+    margin-bottom: 12px;
+}
+
+.profile-card-request-button {
     background-color: rgb(24, 119, 242);
     color: white;
     border: none;
