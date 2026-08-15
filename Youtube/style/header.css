@@ -1,3 +1,25 @@
-.search-bar{
-    display: block;
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section{
+    background-color: gold;
+    width: 150px;
+    
+}
+
+.middle-section{
+    background-color: silver;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+}
+
+.right-section{
+    background-color: gold;
+    width: 200px;
 }
